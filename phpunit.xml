@@ -1,0 +1,9 @@
+<phpunit>
+    <testsuites>
+        <testsuite name="requests">
+            <file>tests/RequestTest/RequestGetCommentsTest.php</file>
+            <file>tests/RequestTest/RequestPostCommentTest.php</file>
+            <file>tests/RequestTest/RequestPutCommentTest.php</file>
+        </testsuite>
+    </testsuites>
+</phpunit>

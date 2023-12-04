@@ -1,0 +1,21 @@
+{
+    "name": "ivanbein/example-client",
+    "autoload": {
+        "psr-4": {
+            "Ivanb\\ExampleClient\\": "src/",
+            "Ivanb\\ExampleClient\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "hatsu",
+            "email": "ivanbein@outlook.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.8"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.5"
+    }
+}
